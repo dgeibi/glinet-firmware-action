@@ -6,6 +6,8 @@ feeds:
     branch: master
 packages:
   - luci-app-mwan3
+  - stubby
+  - luci-app-shadowsocks-libev
 
 
 
