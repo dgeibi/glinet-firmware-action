@@ -8,8 +8,12 @@ packages:
   - luci-app-mwan3
   - stubby
   - luci-app-shadowsocks-libev
-
-
+  - shadowsocks-libev-config
+  - shadowsocks-libev-ss-local
+  - shadowsocks-libev-ss-redir
+  - shadowsocks-libev-ss-rules
+  - shadowsocks-libev-ss-server
+  - shadowsocks-libev-ss-tunnel
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
